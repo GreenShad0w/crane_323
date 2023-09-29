@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5228ddbaf33534c9c34c70e76d32f3, type: 3}
+  m_Name: SteamVR_Settings
+  m_EditorClassIdentifier:
+  pauseGameWhenDashboardVisible: 1
+  lockPhysicsUpdateRateToRenderFrequency: 1
+  trackingSpaceOrigin: 1
+  actionsFilePath: actions.json
+  steamVRInputPath: SteamVR_Input
+  inputUpdateMode: 2
+  poseUpdateMode: 8
+  activateFirstActionSetOnStart: 1
+  editorAppKey: application.generated.unity.устройствополувагона.exe
+  autoEnableVR: 1
+  legacyMixedRealityCamera: 1
+  mixedRealityCameraPose:
+    actionPath: /actions/mixedreality/in/ExternalCamera
+    needsReinit: 0
+  mixedRealityCameraInputSource: 11
+  mixedRealityActionSetAutoEnable: 1
+  previewHandLeft: {fileID: 1840755596684988, guid: e04c23530f6e919469914435d2cfa21d, type: 2}
+  previewHandRight: {fileID: 1907724196032331, guid: a345563bafe68794d91ae8ad59db9a13, type: 2}
